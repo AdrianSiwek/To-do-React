@@ -9,15 +9,12 @@ class App extends Component {
     tasks: [
       {
         id: 0,
-        text: 'Zagrać w heros IV',
-        date: '2018-01-05',
-        important: true,
-        active: true,
+        text: '',
+        date: '',
+        important: false,
+        active: false,
         dateFinish: null,
       },
-      { id: 1, text: 'umyć auto', date: '2023-03-24', important: false, active: true, dateFinish: null, },
-      { id: 2, text: 'umyć okna', date: '2023-03-25', important: false, active: true, dateFinish: null, },
-      {id: 3, text: 'zrobić zakupy', date: '2023-03-25', important: true, active: true, dateFinish: null,},
     ]
   } 
   
